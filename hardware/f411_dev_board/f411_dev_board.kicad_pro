@@ -81,7 +81,24 @@
           "width": 0.3
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|189023000|83310000|4dfab789-e729-475b-b370-2d7992b37534|dcdde717-893d-4991-8496-e1f5737ddeb0",
+          ""
+        ],
+        [
+          "hole_clearance|189023000|83310000|e3e71ff2-8e67-46b9-a93c-7da113ae6d9a|dcdde717-893d-4991-8496-e1f5737ddeb0",
+          ""
+        ],
+        [
+          "hole_clearance|189023000|89410000|730034c0-936c-47f8-868e-1c2b4e576e55|cc6efe16-6dfc-4708-876e-76f8bb664f47",
+          ""
+        ],
+        [
+          "hole_clearance|189023000|89410000|a7db4b92-32c2-4a19-a685-a3bfe885b9cb|cc6efe16-6dfc-4708-876e-76f8bb664f47",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -153,20 +170,20 @@
         "max_error": 0.005,
         "min_clearance": 0.2,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.254,
+        "min_hole_to_hole": 0.5,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
+        "min_text_height": 1.0,
+        "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,
-        "min_via_annular_width": 0.13,
-        "min_via_diameter": 0.7,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.6,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -552,7 +569,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Manufacturing/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
